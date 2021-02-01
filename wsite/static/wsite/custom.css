@@ -1,0 +1,33 @@
+
+.navbar {
+    margin: 0 !important;
+    padding: 0px !important
+}
+
+.navbar-nav .nav-link {
+    color: rgba(211,211,211) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgba(211,211,211,.5) !important;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(222,225,227,3);
+    background-image: url("y-so-serious.png");
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 2rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
