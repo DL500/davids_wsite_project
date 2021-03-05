@@ -1,0 +1,256 @@
+/*css comment*/
+
+}
+/*clear floats after image containers*/
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*testing css for overlay image*/
+
+/*Step 1 RED*/
+.columnR {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.containerR {
+  position: relative;
+  width: 50%;
+}
+
+.imageR {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayR {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #FF0000;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerR:hover .overlayR {
+  bottom: 0;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+.textR {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
+
+/*Step 1b ORANGE*/
+.columnO {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.containerO {
+  position: relative;
+  width: 50%;
+}
+
+.imageO {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayO {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #FF8C00;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerO:hover .overlayO {
+  bottom: 0;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+.textO {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
+
+/*Step 2 YELLOW*/
+.columnY {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.containerY {
+  position: relative;
+  width: 50%;
+}
+
+.imageY {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayY {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #FFFF00;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerY:hover .overlayY {
+  bottom: 0;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+.textY {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
+
+/*Step 3 GREEN*/
+.columnG {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.containerG {
+  position: relative;
+  width: 50%;
+}
+
+.imageG {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayG {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008000;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerG:hover .overlayG {
+  bottom: 0;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+.textG {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
+
+/*Step 4 BLUE*/
+.columnB {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.containerB {
+  position: relative;
+  width: 50%;
+}
+
+.imageB {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayB {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerB:hover .overlayB {
+  bottom: 0;
+  height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+.textB {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+}
