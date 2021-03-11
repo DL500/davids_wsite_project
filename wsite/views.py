@@ -20,3 +20,10 @@ def home(request):
 def knowledgeTile(request):
 	return render(request, 'wsite/knowledgeTile.html')
 
+def nct(request):
+	"""
+    this has temporarilly taken place of blog project link on landing page
+	"""
+	beer = datetime.datetime(2021,4,23) - datetime.datetime.now()
+	return render(request, 'wsite/nct.html', {'beer':beer})
+
